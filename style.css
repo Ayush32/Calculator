@@ -6,10 +6,11 @@
     --hover-color: linear-gradient(to right, #f83600 0%, #f9d423 100%);
     --display-color:linear-gradient(to left, #0f2027, #203a43, #2c5364);
     --button-text-color: black;
+    --background:url("/3438857.jpg")
 }
 body{
-  background-image:url("/3438857.jpg");
-  background-size: contain;
+  background-image:var(--background);
+  background-size: cover;
 }
 #calculator{
     width: 45%;
